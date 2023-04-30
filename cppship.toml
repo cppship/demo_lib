@@ -1,0 +1,9 @@
+[package]
+name = "simple_lib"
+version = "0.1.0"
+std = 17
+
+[dependencies]
+fmt = "9.1.0"
+scnlib = "1.1.2"
+header_only = { git = "https://github.com/cppship/demo_header_only.git", commit = "93f6793ad12203b05b5420e11056634e3179af15" }
